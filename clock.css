@@ -1,0 +1,54 @@
+body{
+    background-image: url(./images/black-friday-sales-arrangement-with-copy-space.jpg);
+    background-size: cover;
+
+}
+.digitalclock{
+    /* background-color: rgb(67, 67, 67); */
+    /* width: 30%; */
+    margin-left: 45%;
+    /* margin-right: 10%; */
+    margin-top: 5%;
+
+}
+.clock {
+    font-size: 140px;
+    color: rgb(120, 120, 120);
+    letter-spacing: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 20px 10px 20px rgb(48, 48, 48);
+}
+
+
+
+
+@media(max-width:376px){
+    .clock{
+        font-size: 50px;
+    }
+    body{
+        background-image: url(./images/portrait.jpg);
+        background-size: cover; 
+    
+    }
+    .digitalclock{
+        margin-left: 10%;
+        margin-top: 30%;
+    
+    }
+}
+@media(max-width:321px){
+    .clock{
+        font-size: 40px;
+    }
+    body{
+        background-image: url(./images/portrait.jpg);
+        background-size: cover; 
+    
+    }
+    .digitalclock{
+        margin-left: 10%;
+        margin-top: 30%;
+    
+    }
+}
